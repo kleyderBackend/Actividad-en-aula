@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Panel de Consulta de Productos</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 40px;
+        }
+
+        .contenedor {
+            max-width: 600px;
+            margin: auto;
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+            text-align: center;
+        }
+
+        button {
+            background-color: #2563eb;
+            color: white;
+            border: none;
+            padding: 12px 20px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background-color: #1d4ed8;
+        }
+
+        #informacionProducto {
+            margin-top: 25px;
+            padding: 20px;
+            background-color: #f8fafc;
+            border-radius: 8px;
+            text-align: left;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="contenedor">
+
+        <h1>Panel de Consulta de Productos</h1>
+
+        <p>Presione el botón para consultar un producto.</p>
+
+        <button id="btnProducto">
+            Consultar producto
+        </button>
+
+        <div id="informacionProducto">
+            <p>Aquí aparecerá la información del producto.</p>
+        </div>
+
+    </div>
+
+    <script src="4.js"></script>
+
+</body>
+
+</html>
